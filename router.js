@@ -1,12 +1,4 @@
-// Install npm react-router-dom first...
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Login from '../containers/Login';
-import Signup from "../containers/Signup";
-import Profile from '../containers/Profile';
-import { onAuthStateChanged, auth } from './Firebase';
-import { useEffect } from 'react';
-import { useState } from 'react';
 function AppRouter() {
     const [isAuth, setIsAuth] = useState(false)
     useEffect(() => {
