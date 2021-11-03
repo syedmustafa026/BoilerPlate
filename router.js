@@ -11,6 +11,7 @@ import { useState } from 'react';
 
 function PrivateRoute({ component: Component, auth, ...rest }) {
     return (
+        
         <Route
             {...rest}
             component={({ location }) =>
