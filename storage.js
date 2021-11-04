@@ -1,3 +1,6 @@
+// Put in submit function:
+// let image = await upload(pic.files[0])
+
 let upload = async (file) => {
     pic = document.getElementById("profile");
     loader = document.getElementById("loader")
