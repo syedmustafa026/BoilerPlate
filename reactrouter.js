@@ -7,8 +7,6 @@ import { onAuthStateChanged, auth } from './Firebase';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-
-
 function PrivateRoute({ component: Component, auth, ...rest }) {
     return (
         
